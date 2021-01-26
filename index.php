@@ -47,7 +47,7 @@
             <div class="bg-white py-3">
               <!--サムネイル-->
               <div class="pb-3">
-                <img class="img-fluid" src="shop_mega_box.png" alt="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>shop_mega_box.png" alt="">
               </div>
               <!--記事タイトル-->
               <h2 class="h4 px-3 pb-3">ピックアップコンテンツ1ピックアップコンテンツ1ピックアップコンテンツ1</h2>

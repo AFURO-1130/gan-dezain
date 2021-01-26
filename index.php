@@ -26,10 +26,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link text-white" href="#">最強キャラ</a>
+              <a class="nav-link text-white" href="">最強キャラ</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-white" href="#">最新アプデ情報</a>
+              <a class="nav-link text-white" href="">最新アプデ情報</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link text-white" href="#">その他</a>
@@ -47,7 +47,7 @@
             <div class="bg-white py-3">
               <!--サムネイル-->
               <div class="pb-3">
-                <img class="img-fluid" src="shop_mega_box.png" alt="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
               </div>
               <!--記事タイトル-->
               <h2 class="h4 px-3 pb-3">ピックアップコンテンツ1ピックアップコンテンツ1ピックアップコンテンツ1</h2>
@@ -65,7 +65,7 @@
             <div class="bg-white py-3">
               <!--サムネイル-->
               <div class="pb-3">
-                <img class="img-fluid" src="shop_mega_box.png" alt="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
               </div>
               <!--記事タイトル-->
               <h2 class="h4 px-3 pb-3">ピックアップコンテンツ1ピックアップコンテンツ1ピックアップコンテンツ1</h2>
@@ -83,7 +83,7 @@
             <div class="bg-white py-3">
               <!--サムネイル-->
               <div class="pb-3">
-                <img class="img-fluid" src="shop_mega_box.png" alt="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
               </div>
               <!--記事タイトル-->
               <h2 class="h4 px-3 pb-3">ピックアップコンテンツ1ピックアップコンテンツ1ピックアップコンテンツ1</h2>
@@ -110,7 +110,7 @@
               <p><a href="">ブロスタ</a></p>
               <!--サムネイル-->
               <div class="pb-3">
-                <img class="img-fluid" src="shop_mega_box.png" alt="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
               </div>
               <!--ディスクリプション-->
               <p class="text-secondary">サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプル</p>
@@ -129,7 +129,7 @@
             <!--プロフィール-->
             <div class="container bg-white mb-5 py-5">
               <div class="mx-5">
-                <img class="img-fluid rounded-circle" src="shop_mega_box.png" alt="">
+                <img class="img-fluid rounded-circle" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
               </div>
               <div class="text-center">
                 <h4 class="d-inline-block py-3 border-bottom border-info">gan</h4>
@@ -150,7 +150,7 @@
               <div class="pb-5">             
                 <!--サムネイル-->
                 <div class="pb-3">
-                  <img class="img-fluid" src="shop_mega_box.png" alt="">
+                  <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
                 </div>
                 <!--記事タイトル-->
                 <h5 class="h5">ピックアップコンテンツ1ピックアップコンテンツ1ピックアップコンテンツ1</h5>
@@ -158,7 +158,7 @@
               <div class="pb-5">             
                 <!--サムネイル-->
                 <div class="pb-3">
-                  <img class="img-fluid" src="shop_mega_box.png" alt="">
+                  <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
                 </div>
                 <!--記事タイトル-->
                 <h5 class="h5">ピックアップコンテンツ1ピックアップコンテンツ1ピックアップコンテンツ1</h5>
@@ -166,7 +166,7 @@
               <div class="pb-5">             
                 <!--サムネイル-->
                 <div class="pb-3">
-                  <img class="img-fluid" src="shop_mega_box.png" alt="">
+                  <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
                 </div>
                 <!--記事タイトル-->
                 <h5 class="h5">ピックアップコンテンツ1ピックアップコンテンツ1ピックアップコンテンツ1</h5>

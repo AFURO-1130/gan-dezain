@@ -13,7 +13,7 @@
   <body>
     <header>
       <div class="container">
-        <h1 class="h1 py-3">ブロスタ攻略</h1>
+        <div class="h1 py-3">ブロスタ攻略</div>
       </div>
     </header>
     <!--グローバルナビ-->
@@ -43,25 +43,74 @@
       <div class="container">
         <div class="row py-3">
           <!--メインコンテンツ-->
-          <div class="col-md-10 col-12 mx-auto">
+          <div class="col-md-8 col-12">
             <div class="bg-white py-3 text-center">
               <!--日付-->
               <p>2019/12/14</p>
               <!--記事タイトル-->
-              <h2 class="px-3 pb-3 font-weight-bolder">ピックアップコンテンツ1ピックアップコンテンツ1ピックアップコンテンツ1</h2>
+              <h1 class="h2 px-3 pb-3 font-weight-bolder">ピックアップコンテンツ1ピックアップコンテンツ1ピックアップコンテンツ1</h1>
               <!--カテゴリー-->
               <p><a href="">ブロスタ</a></p>
               <!--サムネイル-->
               <div class="pb-3">
-                <img class="img-fluid" src="shop_mega_box.png" alt="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
               </div>
               <!--本文-->
               <div class="text-left　px-2">
-                サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサン
+                サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサン
+              </div>
+              
+            </div>
+          </div>
+          <!--サイドバー-->
+          <div class="col-md-4 col-12">
+            <!--プロフィール-->
+            <div class="container bg-white mb-5 py-5">
+              <div class="mx-5">
+                <img class="img-fluid rounded-circle" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
+              </div>
+              <div class="text-center">
+                <h4 class="d-inline-block py-3 border-bottom border-info">gan</h4>
+              </div>
+              <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+            <!--検索窓-->
+            <div class="container bg-white mb-5 py-5">
+              <form>
+                <input type="text" class="form-control"  placeholder="Search for">
+              </form>
+            </div>
+            <!--読んで欲しい記事-->
+            <div class="container bg-white mb-5 py-5">
+              <div class="text-center pb-5">
+                <h4 class="d-inline-block py-3 border-bottom border-info">読んで欲しい記事</h4>
+              </div>
+              <div class="pb-5">             
+                <!--サムネイル-->
+                <div class="pb-3">
+                  <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
+                </div>
+                <!--記事タイトル-->
+                <h5 class="h5">ピックアップコンテンツ1ピックアップコンテンツ1ピックアップコンテンツ1</h5>
+              </div>
+              <div class="pb-5">             
+                <!--サムネイル-->
+                <div class="pb-3">
+                  <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
+                </div>
+                <!--記事タイトル-->
+                <h5 class="h5">ピックアップコンテンツ1ピックアップコンテンツ1ピックアップコンテンツ1</h5>
+              </div>
+              <div class="pb-5">             
+                <!--サムネイル-->
+                <div class="pb-3">
+                  <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
+                </div>
+                <!--記事タイトル-->
+                <h5 class="h5">ピックアップコンテンツ1ピックアップコンテンツ1ピックアップコンテンツ1</h5>
               </div>
             </div>
           </div>
-          
         </div>       
       </div>
       <footer class="bg-white">

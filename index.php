@@ -13,28 +13,30 @@
   <body>
     <header>
       <div class="container">
-        <h1 class="h1 py-3">ブロスタ攻略</h1>
+        <h1 class="h1 py-3">My Theme</h1>
       </div>
     </header>
     <!--グローバルナビ-->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
       <div class="container">
-        <a class="navbar-brand text-white" href="#">ホーム</a>
+        <a class="navbar-brand text-white" href="#">Home</a>
         <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link text-white" href="">最強キャラ</a>
+              <a class="nav-link text-white" href="#">WordPress</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-white" href="">最新アプデ情報</a>
+              <a class="nav-link text-white" href="#">HTML</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-white" href="#">その他</a>
+              <a class="nav-link text-white" href="#">CSS</a>
             </li>
-            
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">PHP</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -47,7 +49,7 @@
             <div class="bg-white py-3">
               <!--サムネイル-->
               <div class="pb-3">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
+                <img class="img-fluid" src="img/img1.png" alt="">
               </div>
               <!--記事タイトル-->
               <h2 class="h4 px-3 pb-3">ピックアップコンテンツ1ピックアップコンテンツ1ピックアップコンテンツ1</h2>
@@ -55,7 +57,7 @@
               <div class="text-center">
                 <a href="">
                   <div class="d-inline-block border p-3 text-secondary">
-                    続きを読む
+                    READ MORE
                   </div>
                 </a>
               </div>
@@ -65,7 +67,7 @@
             <div class="bg-white py-3">
               <!--サムネイル-->
               <div class="pb-3">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
+                <img class="img-fluid" src="img/img2.png" alt="">
               </div>
               <!--記事タイトル-->
               <h2 class="h4 px-3 pb-3">ピックアップコンテンツ1ピックアップコンテンツ1ピックアップコンテンツ1</h2>
@@ -73,7 +75,7 @@
               <div class="text-center">
                 <a href="">
                   <div class="d-inline-block border p-3 text-secondary">
-                    続きを読む
+                    READ MORE
                   </div>
                 </a>
               </div>
@@ -83,7 +85,7 @@
             <div class="bg-white py-3">
               <!--サムネイル-->
               <div class="pb-3">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
+                <img class="img-fluid" src="img/img3.png" alt="">
               </div>
               <!--記事タイトル-->
               <h2 class="h4 px-3 pb-3">ピックアップコンテンツ1ピックアップコンテンツ1ピックアップコンテンツ1</h2>
@@ -91,7 +93,7 @@
               <div class="text-center">
                 <a href="">
                   <div class="d-inline-block border p-3 text-secondary">
-                    続きを読む
+                    READ MORE
                   </div>
                 </a>
               </div>
@@ -107,10 +109,10 @@
               <!--記事タイトル-->
               <h2 class="px-3 pb-3 font-weight-bolder">ピックアップコンテンツ1ピックアップコンテンツ1ピックアップコンテンツ1</h2>
               <!--カテゴリー-->
-              <p><a href="">ブロスタ</a></p>
+              <p><a href="">WordPress</a></p>
               <!--サムネイル-->
               <div class="pb-3">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
+                <img class="img-fluid" src="img/img4.png" alt="">
               </div>
               <!--ディスクリプション-->
               <p class="text-secondary">サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプル</p>
@@ -118,7 +120,7 @@
               <div class="text-center">
                 <a href="">
                   <div class="d-inline-block border p-3 text-secondary">
-                    続きを読む
+                    READ MORE
                   </div>
                 </a>
               </div>
@@ -129,10 +131,10 @@
             <!--プロフィール-->
             <div class="container bg-white mb-5 py-5">
               <div class="mx-5">
-                <img class="img-fluid rounded-circle" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
+                <img class="img-fluid rounded-circle" src="img/img6.png" alt="">
               </div>
               <div class="text-center">
-                <h4 class="d-inline-block py-3 border-bottom border-info">gan</h4>
+                <h4 class="d-inline-block py-3 border-bottom border-info">しもむらともき</h4>
               </div>
               <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
             </div>
@@ -150,7 +152,7 @@
               <div class="pb-5">             
                 <!--サムネイル-->
                 <div class="pb-3">
-                  <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
+                  <img class="img-fluid" src="img/img7.png" alt="">
                 </div>
                 <!--記事タイトル-->
                 <h5 class="h5">ピックアップコンテンツ1ピックアップコンテンツ1ピックアップコンテンツ1</h5>
@@ -158,7 +160,7 @@
               <div class="pb-5">             
                 <!--サムネイル-->
                 <div class="pb-3">
-                  <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
+                  <img class="img-fluid" src="img/img8.png" alt="">
                 </div>
                 <!--記事タイトル-->
                 <h5 class="h5">ピックアップコンテンツ1ピックアップコンテンツ1ピックアップコンテンツ1</h5>
@@ -166,7 +168,7 @@
               <div class="pb-5">             
                 <!--サムネイル-->
                 <div class="pb-3">
-                  <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/shop_mega_box.png" alt="">
+                  <img class="img-fluid" src="img/img9.png" alt="">
                 </div>
                 <!--記事タイトル-->
                 <h5 class="h5">ピックアップコンテンツ1ピックアップコンテンツ1ピックアップコンテンツ1</h5>
@@ -180,7 +182,7 @@
           <div class="row">
             <div class="col-md-4 col-12">
               <div class="pb-5">
-                <h4 class="d-inline-block py-3 border-bottom border-info">筆者について</h4>
+                <h4 class="d-inline-block py-3 border-bottom border-info">About</h4>
               </div>
               <p>
                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -188,16 +190,16 @@
             </div>
             <div class="col-md-4 col-12">
               <div class="pb-5">
-                <h4 class="d-inline-block py-3 border-bottom border-info">実績</h4>
+                <h4 class="d-inline-block py-3 border-bottom border-info">Portfolio</h4>
               </div>
               <div class="p-3 border-top border-bottom border-secondary">
                 <a class="text-secondary" href="">
-                  主な実績
+                  ポートフォリオサイト
                 </a>
               </div>
               <div class="p-3 border-top border-bottom border-secondary">
                 <a class="text-secondary" href="">
-                  大会運営してるを！
+                  ポートフォリオサイト
                 </a>
               </div>
             </div>
@@ -205,20 +207,15 @@
               <div class="pb-5">
                 <h4 class="d-inline-block py-3 border-bottom border-info">Twitter</h4>
               </div>
-              <a class="twitter-timeline" href="https://twitter.com/Gan_tonanoru?ref_src=twsrc%5Etfw">Tweets by Gan_tonanoru</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a class="twitter-timeline" data-lang="ja" data-height="600" href="https://twitter.com/shimo_tmk?ref_src=twsrc%5Etfw">Tweets by shimo_tmk</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
           </div>
         </div>
         <div class="bg-dark text-white text-center p-3">
-          Copyright - gan-blog, 2021 All Rights Reserved.
+          Copyright - tomoki shimomura, 2019 All Rights Reserved.
         </div>
       </footer>
     </main>
-
-
-
-
-    
   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
